@@ -1,0 +1,150 @@
+body {
+	background: green;
+	color: black; 
+}
+
+.surround {
+	border: black 1px solid;
+}
+
+.top img {
+	margin-left: 12.5%;
+	width: 75%;
+}
+
+.title h1 {
+	font-size: 2.5em;
+	color: #000;
+	text-align: center;		
+}
+
+/* daily stats fields */
+
+.stats-row {
+	margin-bottom: 30px;
+}
+
+.stats h1 {
+	font-size: 1em;
+	float: left;
+}
+
+.stats input {
+	margin-top: 4px;
+	float: left;
+	height: 22px;
+}
+
+.stats ul {
+	list-style: none;
+}
+
+.stats ul li {
+	float: left;
+	margin-left: 3%;
+}
+
+.stats ul li h1 {
+	margin-right: 20%;
+}
+
+.stats input {
+	width: 50px;
+	margin: 10% 0 10% 10%;
+	height: 30px;
+	float: left;
+}
+
+@media screen and (max-width: 600px) {
+	.stats input {
+		width: 52px;
+		margin: 15% 0 0 0;
+	}
+}
+	
+}	
+
+.reply p {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.new-input input {
+	margin: 20px 0 0 0;
+	width: 60px;
+}
+
+/* buttons section */
+
+.btn {
+	margin-top: 10px;
+	margin-left: 20%;
+	padding: 0 2px 0 2px;
+	font-size: .75em;
+	width: 20px;
+	float: left;
+}
+
+.left-side {
+	float: right;
+}
+
+.right-side {
+	float: left; 
+}
+
+/* totals section */
+
+.totals {
+	margin: 40px 0 0 0;
+}
+
+.totals h1 {
+	text-align: center;
+	font-size: 24px;
+} 
+
+.totals h2 {
+	font-size: 16px;
+}
+
+.totals ul {
+	list-style: none;
+}
+
+.totals ul li {
+	margin-left: 5%;
+}
+
+.totals ul li h1 {
+	margin-right: 20%;
+}
+
+.average {
+	margin: 20px 0 0 0;
+}
+
+.average h1 {
+	text-align: center;
+	font-size: 24px;
+} 
+
+.average h2 {
+	font-size: 16px;
+}
+
+.average ul {
+	list-style: none;
+}
+
+.average ul li {
+	float: left;
+	margin-left: 5%;
+}
+
+.average ul li h1 {
+	margin-right: 20%;
+}
+
+
+
